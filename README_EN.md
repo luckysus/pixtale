@@ -40,7 +40,7 @@ docker run -d \
   -e ADMIN=admin \
   -e PASSWORD=123456 \
   -e JWT_SECRET=abc \
-  pixtalelab/pixtale:latest
+  aslost/pixtale:latest
 ```
 
 Set `ADMIN`, `PASSWORD`, and `JWT_SECRET` to your own values, then run the command. Open `http://<your-server-ip>:8082` in your browser to access your gallery.
